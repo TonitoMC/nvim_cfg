@@ -5,14 +5,15 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- { import = "astrocommunity.scrolling.cinnamon-nvim" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.python"},
-  { import = "astrocommunity.pack.go"},
-  { import = "astrocommunity.pack.html-css"},
-  { import = "astrocommunity.pack.docker"},
-  { import = "astrocommunity.pack.svelte"},
-  { import = "astrocommunity.pack.rust"},
-  { import = "astrocommunity.game.leetcode-nvim"},
-  { import = "astrocommunity.diagnostics.trouble-nvim"},
-  { import = "astrocommunity.workflow.hardtime-nvim"}
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.game.leetcode-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
